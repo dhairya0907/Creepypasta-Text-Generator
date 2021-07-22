@@ -14,7 +14,7 @@ from psaw import PushshiftAPI
 from datetime import datetime
 from firebase_admin import credentials, initialize_app, storage
 
-IST = pytz.timezone('Asia/Kolkata')
+IST = pytz.timezone('') # Enter your timezone.
 start_time = str(dt.datetime.now(IST).strftime("%H:%M:%S"))
 start_dt = dt.datetime.strptime(start_time, '%H:%M:%S')
 
