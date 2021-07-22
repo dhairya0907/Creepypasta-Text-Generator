@@ -25,7 +25,7 @@ r = praw.Reddit(client_id='',
                 user_agent='')
 api = PushshiftAPI(r)
 
- # Enter path to Credentials jsson file and storageBucket link.
+ # Enter path to Credentials json file and storageBucket link.
 
 cred = credentials.Certificate('')
 initialize_app(cred, {'storageBucket': ''})
