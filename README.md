@@ -100,7 +100,7 @@ To host web application on user localhost follow below steps :
     ```
     Go to https://console.firebase.google.com/u/2/project/ml-research-ab177/settings/serviceaccounts/adminsdk
     ```
-  Note: If you don't have a Wandb account, remove Wandb code from the scripts.
+  Note: If you don't have a Wandb account, remove Wandb code from the scripts. And if you don't have a Firebase   account, remove Firebase code from the scripts.
 
 ### Installation
 * Common Steps
