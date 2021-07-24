@@ -98,7 +98,8 @@ To host web application on user localhost follow below steps :
     ```
     2. Firebase Account to upload files while scrapping reddit
     ```
-    Go to https://console.firebase.google.com/u/2/project/ml-research-ab177/settings/serviceaccounts/adminsdk
+    To get firebase-adminsdk.json, goto Firebase Console, click on the Gear icon besides Project Overview and select Project Settings -> Service accounts -> Generate new private key.
+    
     ```
   Note: If you don't have a Wandb account, remove Wandb code from the scripts. And if you don't have a Firebase   account, remove Firebase code from the scripts.
 
