@@ -131,6 +131,8 @@ To host web application on user localhost follow below steps :
         ```
     5. Now Build and Publish the model.
 
+* Now follow the steps to deploy the website, on <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator-Website">https://github.com/dhairya0907/Creepypasta-Text-Generator-Website</a> to generate text using website interface.
+
 
 <!-- ROADMAP -->
 ## Roadmap
