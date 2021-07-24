@@ -5,7 +5,7 @@
     <img src="/Images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Creepypasta - Text Generator(Website)</h3>
+  <h3 align="center">Creepypasta - Text Generator</h3>
 
   <p align="center">
     Website which uses Deep Learning to generate horror stories.
@@ -13,11 +13,11 @@
     <br />
     <a href="https://creepypasta-demo.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator">View Training Repo</a>
+    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator-Website">View Website Repo</a>
     ·
-    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/issues">Report Bug</a>
+    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/issues">Request Feature</a>
+    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/issues">Request Feature</a>
   </p>
 </p>
 
