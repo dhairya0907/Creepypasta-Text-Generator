@@ -83,40 +83,56 @@ To host web application on user localhost follow below steps :
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* Follow the steps to Train and Host Machine Learning Model on [Creepypasta - Text Generator](https://github.com/dhairya0907/Creepypasta-Text-Generator).
-
-* yarn
-  ```sh
-  npm install --global yarn
+* Reddit API Key
   ```
+  Go to https://www.reddit.com/prefs/apps/
+  ```
+* Algorithmia Account
+  ```
+  Go to https://algorithmia.com/
+  ```
+* Optional: 
+    1. Wandb Account and Wandb API Key to track training
+    ```
+    Go to https://wandb.com/
+    ```
+    2. Firebase Account to upload files while scrapping reddit
+    ```
+    Go to https://console.firebase.google.com/u/2/project/ml-research-ab177/settings/serviceaccounts/adminsdk
+    ```
+  Note: If you don't have a Wandb account, remove Wandb code from the scripts.
 
 ### Installation
-1. Clone the repo
-   ```sh
-   git clone https://github.com/dhairya0907/Creepypasta-Text-Generator-Website.git
-   ```
-2. Install YARN packages
-   ```sh
-   yarn install
-   ```
-3. Run on localhost
-   ```sh
-   yarn web
-   ```
+* Common Steps
+    1. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Reddit%20Scraping%20Script.py">Reddit Scraping Script.py</a> to scrape data from Reddit.
+    2. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Filter%20Dates.py">Filter Dates.py</a> to filter dates.
+    3. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Csv%20to%20Story%20Text.py">Csv to Story Text.py</a> to convert csv to story text.
+    4. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Split%20Text%20Files.py">Split Text Files.py</a> to split text files into smaller chunks.
+    5. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Vocabulary%20details.py">Vocabulary details.py</a> to get details of the vocabulary.
+    6. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Train%20Model.py">Train Model.py</a> to train the model.
 
-4. Opens browser on http://localhost:3000/
+* For Word Level
+    1. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Word_Level_Text_Generation_First_Time.ipynb">Word_Level_Text_Generation_First_Time.ipynb</a> to train the model for the first time.
+    2. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Word_Level_Text_Generation_After_First_Time.ipynb">Word_Level_Text_Generation_After_First_Time.ipynb</a> to train the model incrementally.
 
-**Note:** To avoid CORS issue while using Algorithmia, go to ```node_modules\algorithmia\lib``` and open file ```algorithm.js``` and change the line 
-```js 
-algorithmia.com/v1/algo/demo/Hello
-  ``` 
-  <p  align="center">to</p>
+* For Character Level
+    1. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Charcter_Level_Text_Generation.ipynb">Charcter_Level_Text_Generation.ipynb</a> to train the model for the first time.
+    2. Again run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Charcter_Level_Text_Generation.ipynb">Charcter_Level_Text_Generation.ipynb</a> with changes mentioned to train the model incrementally.
 
-  ```js
-  algorithmia.com/v1/web/algo/demo/Hello  <- CORS-enabled route
-  ```
-* Refer to [https://github.com/algorithmiaio/algorithmia-nodejs/issues/12](https://github.com/algorithmiaio/algorithmia-nodejs/issues/12) for more information.
+* To host Model on Algorithmia
+    1. Go to <a href="https://algorithmia.com/">Algorithmia</a> and create a new project.
+    2. Upload all the files in <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/tree/main/Data%20Sources">Data Sources</a> to your project.
+    3. Past <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Algorithmia.py">Algorithmia.py</a> to Source Code on Algorithmia.
+    4. Add Deppendency to the project.
+        ```
+        algorithmia>=1.0.0,<2.0
+        tensorflow-gpu
+        keras
+        h5py
+        ```
+    5. Now Build and Publish the model.
+
+
 <!-- ROADMAP -->
 ## Roadmap
 
