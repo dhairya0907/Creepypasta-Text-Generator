@@ -12,7 +12,7 @@ from keras.layers import LSTM, Dense, Embedding, GRU
 
 client = Algorithmia.client()
 
-# Path to diffrent models and text files
+# Path to diffrent models and text files from data source of algosimia
 
 charcter_level_lstm_model_small = ""
 character_level_lstm_text_small = ""
