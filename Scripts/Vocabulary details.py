@@ -88,7 +88,7 @@ for i in tqdm(files):
     f = open("char_vocab_details.txt", "a")
     f.write("\nFile Name : "+i)
     f.write("\nTotal Vocab : "+str(len(vocabulary)))
-    f.write("\n\n")3
+    f.write("\n\n")
     f.close()
     f = open(os.path.splitext(i)[0]+"_char_vocabs.txt", "w")
     f.write(str(vocabulary))
