@@ -109,7 +109,6 @@ To host web application on user localhost follow below steps :
     3. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Csv%20to%20Story%20Text.py">Csv to Story Text.py</a> to convert csv to story text.
     4. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Split%20Text%20Files.py">Split Text Files.py</a> to split text files into smaller chunks.
     5. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Vocabulary%20details.py">Vocabulary details.py</a> to get details of the vocabulary.
-    6. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Train%20Model.py">Train Model.py</a> to train the model.
 
 * For Word Level
     1. Run <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Word_Level_Text_Generation_First_Time.ipynb">Word_Level_Text_Generation_First_Time.ipynb</a> to train the model for the first time.
