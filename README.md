@@ -115,14 +115,14 @@ algorithmia.com/v1/algo/demo/Hello
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/dhairya0907/Creepypasta-Text-Generator/issues) for a list of proposed features (and known issues).
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/LICENSE) for more information.
 
 
 
@@ -131,6 +131,6 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya090
 
 Dhairya Sharma - [@dhairya_0907](https://twitter.com/dhairya_0907) - dhairya.sharma532@gmail.com.com
 
-Project Github Link: [https://github.com/dhairya0907/Creepypasta-Text-Generator-Website](https://github.com/dhairya0907/Creepypasta-Text-Generator-Website)
+Project Github Link: [https://github.com/dhairya0907/Creepypasta-Text-Generator](https://github.com/dhairya0907/Creepypasta-Text-Generator)
 
 Project Web Application Link: [https://creepypasta-demo.vercel.app](https://creepypasta-demo.vercel.app)
