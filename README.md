@@ -52,9 +52,9 @@
  <br/>
 </p>
 
-There are two parts to the project. One is the <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/tree/main/Data%20Sources/Models">Deep Learning model</a> which generates the text. The other is the <a href="https://creepypasta-demo.vercel.app/">website</a> which uses the model to generate text.
+There are two parts to the project. One is the <a href="https://drive.google.com/drive/folders/1O9JFbdgr_8o2Vl5biKKIX_Y1cUUVjvD2">Deep Learning model</a> which generates the text. The other is the <a href="https://creepypasta-demo.vercel.app/">website</a> which uses the model to generate text.
 
-I have used <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/tree/main/Data%20Sources/Models">Deep Learning model</a> to generate text. It is a <a href="https://en.wikipedia.org/wiki/Neural_network">Neural Network</a> which uses <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">Recurrent Neural Network</a> to generate text.
+I have used <a href="https://drive.google.com/drive/folders/1O9JFbdgr_8o2Vl5biKKIX_Y1cUUVjvD2">Deep Learning model</a> to generate text. It is a <a href="https://en.wikipedia.org/wiki/Neural_network">Neural Network</a> which uses <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">Recurrent Neural Network</a> to generate text.
 
 I have hosted a model on  <a href="https://algorithmia.com/">Algorithmia</a> and used it's API to generate text.
 
@@ -66,12 +66,12 @@ I have hosted a model on  <a href="https://algorithmia.com/">Algorithmia</a> and
 
 ### What I learned
 * How to clear raw data to use it for training.
-* How to use <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/tree/main/Data%20Sources/Models">Deep Learning model</a> to generate text.
+* How to use <a href="https://drive.google.com/drive/folders/1O9JFbdgr_8o2Vl5biKKIX_Y1cUUVjvD2">Deep Learning model</a> to generate text.
 * How to use <a href="https://algorithmia.com/">Algorithmia</a> to generate text.
 * How to use <a href="https://vercel.com/">Vercel</a> to deploy a website.
 * How to use <a href="https://www.tensorflow.org/">TensorFlow</a> to train a model.
 * How to train a model incrementally.
-* How to handle large <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/tree/main/Data%20Sources">data</a>.
+* How to handle large <a href="https://drive.google.com/drive/folders/1SjWgphsq-LhPY9YNh_GyZGEKfYOlsoQK">data</a>.
 * How to use Machine Learning model to generate text and display it on the website.
 
 
@@ -126,7 +126,7 @@ To host web application on user localhost follow below steps :
 
 * To host Model on Algorithmia
     1. Go to <a href="https://algorithmia.com/">Algorithmia</a> and create a new project.
-    2. Upload all the files in <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/tree/main/Data%20Sources">Data Sources</a> to your project.
+    2. Upload all the files in <a href="https://drive.google.com/drive/folders/1SjWgphsq-LhPY9YNh_GyZGEKfYOlsoQK">Data Sources</a> to your project.
     3. Past <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator/blob/main/Scripts/Algorithmia.py">Algorithmia.py</a> to Source Code on Algorithmia.
     4. Add Deppendency to the project.
         ```
