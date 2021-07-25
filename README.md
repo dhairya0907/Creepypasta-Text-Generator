@@ -91,6 +91,7 @@ To host web application on user localhost follow below steps :
   ```
   Go to https://algorithmia.com/
   ```
+
 * Optional: 
     1. Wandb Account and Wandb API Key to track training
     ```
@@ -100,6 +101,10 @@ To host web application on user localhost follow below steps :
     ```
     To get firebase-adminsdk.json, goto Firebase Console, click on the Gear icon besides Project Overview and select Project Settings -> Service accounts -> Generate new private key.
     
+    ```
+    3. Data Sources
+    ```
+    Go to <a href="https://drive.google.com/drive/folders/1SjWgphsq-LhPY9YNh_GyZGEKfYOlsoQK?usp=sharing">Data Sources</a> folder and download the files.
     ```
   Note: If you don't have a Wandb account, remove Wandb code from the scripts. And if you don't have a Firebase   account, remove Firebase code from the scripts.
 
