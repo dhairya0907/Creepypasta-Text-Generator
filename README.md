@@ -103,9 +103,9 @@ To host web application on user localhost follow below steps :
     
     ```
     3. Data Sources
-    ```
-    Go to <a href="https://drive.google.com/drive/folders/1SjWgphsq-LhPY9YNh_GyZGEKfYOlsoQK?usp=sharing">Data Sources</a> folder and download the files.
-    ```
+    
+          * Go to <a href="https://drive.google.com/drive/folders/1SjWgphsq-LhPY9YNh_GyZGEKfYOlsoQK?usp=sharing">Data Sources</a> folder and download the files.
+    
   Note: If you don't have a Wandb account, remove Wandb code from the scripts. And if you don't have a Firebase   account, remove Firebase code from the scripts.
 
 ### Installation
