@@ -79,7 +79,7 @@ I have hosted a model on  <a href="https://algorithmia.com/">Algorithmia</a> and
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To host web application on user localhost follow below steps :
+To train model follow below steps :
 
 ### Prerequisites
 
